@@ -1,0 +1,23 @@
+{
+  "name": "rest",
+  "version": "1.0.0",
+  "main": "CRUD.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve_crud": "node CRUD.js",
+    "serve_rest": "node rest.js",
+    "dev_crud": "nodemon CRUD.js"
+  },
+  "keywords": [],
+  "author": "Nilufer Sagat",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "express": "^4.18.3",
+    "mongodb": "^6.4.0",
+    "mongoose": "^8.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
